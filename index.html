@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monopolution</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hContainer" id="header" >
+		<h1>Simple Crud </h1>
+		<span id="searchBar">
+			<input id="search" type="text" name="search" placeholder="search" >
+
+		</span>
+	</div> 	
+
+	<div class="bContainer">
+		<div class="addItem" >
+			<div><label>Add Course</label></div>
+			<input type="text" name="addItem" placeholder="addItem" id="value">
+			<button id="formId" type="submit" >Submit</button>
+		</div>
+		<div>
+			<label>Courses</label>
+		<ul class="item" id="item">
+			<li class="itemContent">HTML <button class="but">X</button></li>	
+			<li class="itemContent">CSS<button class="but">X</button></li>	
+			<li class="itemContent">JavaScript <button class="but">X</button></li>	
+			<li class="itemContent">Machine Learning<button class="but">X</button></li>	
+			<li class="itemContent">Deep Learning<button class="but">X</button></li>
+		</ul>
+		
+		</div>
+	</div>
+
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
